@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.header {
+  color: #a35200;
+  font-size: 32px;
+}
+.para {
+  color: #334155;
+  font-size: 20px;
+}
+.toss-image {
+  width: 200px;
+  height: 200px;
+}
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  justify-content: space-around;
+}
+.Count {
+  margin: 20px;
+}
+
+@media (max-width: 576px) {
+  .count-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
